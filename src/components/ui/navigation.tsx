@@ -71,7 +71,7 @@ const Navigation = () => {
             download
             className="inline-flex items-center justify-center gap-2 rounded-xl bg-color-10 px-4 py-1.5 text-base leading-normal text-color-1 hover:bg-color-7"
           >
-            Download CV
+            Download Resume
           </a>
         </nav>
 
