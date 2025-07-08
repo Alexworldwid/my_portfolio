@@ -106,7 +106,7 @@ const Work = () => {
                                 src={'/images/Screenshot 2025-06-23 230812.png'}
                                 alt='work 1'
                                 fill
-                                className='rounded-xl'
+                                className='rounded-xl object-cover object-left-top'
                             />
                         </div>
                     </div>
@@ -161,7 +161,7 @@ const Work = () => {
                                 src={'/images/Screenshot 2025-06-23 231126.png'}
                                 alt='work 2'
                                 fill
-                                className='rounded-xl'
+                                className='rounded-xl object-cover object-left-top'
                             />
                         </div>
                     </div>
@@ -214,7 +214,7 @@ const Work = () => {
                                 src={'/images/Screenshot 2025-06-23 225636.png'}
                                 alt='work 1'
                                 fill
-                                className='rounded-xl'
+                                className='rounded-xl object-cover object-left-top'
                             />
                         </div>
                     </div>
