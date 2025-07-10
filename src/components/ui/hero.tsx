@@ -115,9 +115,9 @@ const Hero = () => {
       <article className="flex flex-col-reverse w-full max-w-7xl items-center gap-12 px-4 md:px-8 md:flex-row ">
         <div className="flex w-full flex-col gap-12">
           <div className="">
-            <h1 ref={heroRef} className="text-4xl leading-10 md:text-6xl font-bold md:leading-[72px] text-color-10 font-inter">
+            <h1 ref={heroRef} className="text-4xl leading-10 md:text-6xl font-bold md:leading-[72px] text-color-10 font-inter ">
               {text.split(" ").map((char, index) => (
-                <span key={index} style={{ display: "inline-block", marginRight: "0.8rem" }} ref={char.includes("👋") ? waveEmojiRef : null}>
+                <span key={index} style={{ display: "inline-block", marginRight: "0.8rem", opacity: "0" }} ref={char.includes("👋") ? waveEmojiRef : null}>
                   {char === " " ? "\u00A0" : char}
                 </span>
               ))}
@@ -127,14 +127,14 @@ const Hero = () => {
                 <span
                   key={index}
                   ref={index === 0 ? subHeadingRef : null}
-                  style={{ display: "inline-block", marginRight: "0.5rem" }}
+                  style={{ display: "inline-block", marginRight: "0.5rem", opacity: "0" }}
                 >
                   {char === " " ? "\u00A0" : char}
                 </span>
               ))}
             </p>
           </div>
-          <div ref={locationRef} className="flex flex-col gap-2">
+          <div ref={locationRef} className="flex flex-col gap-2 opacity-0 will-change-transform">
             <div className="flex items-center gap-2 font-normal leading-normal text-color-6">
               <MapPin className="text-color-7" />
               <p className="text-base font-medium text-color-7 font-inter">
@@ -151,7 +151,7 @@ const Hero = () => {
               </p>
             </div>
           </div>
-          <div ref={linkRef} className="inline-flex items-center gap-1">
+          <div ref={linkRef} className="inline-flex items-center gap-1 opacity-0 will-change-transform">
             <a target="_blank" href="https://github.com/Alexworldwid">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +177,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative inline-flex w-full md:h-96 md:w-96 md:min-w-96 flex-col items-center md:items-end justify-center">
-          <div ref={heroImageRef} className="relative h-80 w-[100%]  max-w-72 md:h-96 md:w-80">
+          <div ref={heroImageRef} className="relative h-80 w-[100%]  max-w-72 md:h-96 md:w-80 opacity-0 will-change-transform">
             <div className="absolute left-0 top-[20px] md:top-[28px] z-10 h-72 w-[100%] max-w-72 md:h-80 md:w-72 border-8 border-default bg-color-3"></div>
             <Image 
                 src="/WhatsApp Image 2025-07-07 at 08.26.51_3d36d357.jpg"

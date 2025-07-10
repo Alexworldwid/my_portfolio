@@ -109,12 +109,12 @@ const About = () => {
     return (
         <section id='about' className='flex flex-col px-4 py-16 md:py-24 items-center justify-center bg-color-1 w-full'>
             <article className="flex items-center justify-center flex-col max-w-7xl gap-6 md:gap-12 md:px-8">
-                <div ref={aboutRef} className="w-full flex items-center justify-center">
+                <div ref={aboutRef} className="w-full flex items-center justify-center opacity-0 will-change-transform">
                     <p className='px-5 py-1 bg-color-2 rounded-xl inline-flex justify-center items-center text-color-6 text-sm font-medium leading-tight font-inter'>About me</p>
                 </div>
                 <div className="inline-flex flex-col md:flex-row justify-start items-start gap-12 content-start overflow-hidden">
                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-start">
-                        <div ref={aboutImageRef} className="w-[100%] max-w-80 h-[520px] relative flex items-center justify-center">
+                        <div ref={aboutImageRef} className="w-[100%] max-w-80 h-[520px] relative flex items-center justify-center opacity-0 will-change-transform">
                             <div className="max-w-96 w-[100%] h-[480px] relative bg-color-3 border-8 border-default top-2 md:top-6 z-10"></div>
                             <Image 
                                 src="/WhatsApp Image 2025-07-07 at 08.26.52_f235f4d5.jpg"
@@ -131,14 +131,14 @@ const About = () => {
                         <h2 ref={aboutTitleRef} className='text-color-10 text-3xl font-semibold leading-9 font-inter'>
                             {
                                 text.split('').map((char, index) => (
-                                    <span key={index} style={{ display: "inline-block", marginRight: "0.03rem" }}>
+                                    <span key={index} style={{ display: "inline-block", marginRight: "0.03rem", opacity: "0" }}>
                                         {char === " " ? "\u00A0" : char}
                                     </span>
                                 ))
                             }
                         </h2>
                         <div className="flex flex-col gap-4">
-                            <p ref={para1Ref} className='text-color-6 text-base font-normal font-inter leading-normal'>I&apos;m a passionate, 
+                            <p ref={para1Ref} className='text-color-6 text-base font-normal font-inter leading-normal opacity-0 will-change-transform'>I&apos;m a passionate, 
                                 <span className="text-color-6 text-base font-normal font-inter underline leading-normal pr-1"> self-proclaimed developer</span>
                                 <span className="text-color-6 text-base font-normal font-inter leading-normal"> 
                                     who specializes in full stack development (React.js & Node.js). I am very enthusiastic about 
@@ -147,29 +147,29 @@ const About = () => {
                                 </span>
                             </p>
 
-                            <p ref={para2Ref} className='text-color-6 text-base font-normal font-inter leading-normal'>
+                            <p ref={para2Ref} className='text-color-6 text-base font-normal font-inter leading-normal opacity-0 will-change-transform'>
                                 I love building things that live on the internet. My goal is to create a seamless experience 
                                 for users while solving complex problems. I am always eager to learn new technologies and 
                                 improve my skills. I am currently looking for opportunities to work on exciting projects 
                                 and collaborate with talented teams.
                             </p>
 
-                            <p ref={para4Ref} className='text-color-6 text-base font-normal font-inter leading-normal'>
+                            <p ref={para4Ref} className='text-color-6 text-base font-normal font-inter leading-normal opacity-0 will-change-transform'>
                                 When I am not coding, you can find me exploring new places, reading books, or playing video games. 
                                 I also enjoy sharing my knowledge and experiences with others through blogging and mentoring.
                             </p>
 
-                            <p ref={para5Ref} className='text-color-6 text-base font-normal font-inter leading-normal'>
+                            <p ref={para5Ref} className='text-color-6 text-base font-normal font-inter leading-normal opacity-0 will-change-transform'>
                                 Finally, some quick bits about me.
                             </p>
                             
-                            <ul ref={para6Ref} className=' list-disc grid list-inside grid-cols-2'>
+                            <ul ref={para6Ref} className=' list-disc grid list-inside grid-cols-2 opacity-0 will-change-transform'>
                                 <li className='text-color-6 text-base font-normal font-inter leading-normal'>BSc Computer Science</li>
                                 <li className='text-color-6 text-base font-normal font-inter leading-normal'>Avid Learner</li>
                                 <li className='text-color-6 text-base font-normal font-inter leading-normal'>Full time freelancer</li>
                             </ul>
 
-                            <p ref={para7Ref} className='text-color-6 text-base font-normal font-inter leading-normal'>
+                            <p ref={para7Ref} className='text-color-6 text-base font-normal font-inter leading-normal opacity-0 will-change-transform'>
                                 One last thing, I&apos;m available for freelance work, so feel free to reach out and say hello! I promise I don&apos;t bite 😉
                             </p>
                         </div>
