@@ -180,7 +180,7 @@ const Hero = () => {
           <div ref={heroImageRef} className="relative h-80 w-[100%]  max-w-72 md:h-96 md:w-80 opacity-0 will-change-transform">
             <div className="absolute left-0 top-[20px] md:top-[28px] z-10 h-72 w-[100%] max-w-72 md:h-80 md:w-72 border-8 border-default bg-color-3"></div>
             <Image 
-                src="/WhatsApp Image 2025-07-07 at 08.26.51_3d36d357.jpg"
+                src="/adewale.jpg"
                 alt="hero image"
                 width={80} // Percentage width (100%)
                 height={100} // Aspect ratio (adjust as needed)
