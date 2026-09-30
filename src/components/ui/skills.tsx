@@ -95,7 +95,7 @@ const Skills = () => {
         });
     }, [])
 
-    const text = "The skills, tools and technologies I am really good at:";
+    const text = "The technologies and tools I use to build web and mobile applications:";
 
     return (
         <section id='skills' className='py-16 md:py-24 bg-default w-full flex items-center justify-center'>
@@ -193,28 +193,23 @@ const Skills = () => {
                         <div ref={skills7Ref} className='flex justify-center items-center flex-col'>
                             <div className='relative w-16 h-16'>
                                 <Image 
-                                src="/images/icon-nest.svg"
+                                src="/light-expo-opened-svgrepo-com.svg"
                                 fill
-                                alt='Nest.js icon'
+                                alt='expo icon'
                                 />
                             </div>
-                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>Nest.js</p>
+                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>expo</p>
                         </div>
 
                         <div ref={skills8Ref} className='flex justify-center items-center flex-col'>
                             <div className='relative w-16 h-16'>
-                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clipPath="url(#clip0_316_308)">
-                                    <path d="M64.4879 31.295C64.3139 20.595 58.3479 10.177 49.1179 4.69099C41.8459 0.161987 32.6599 -1.05701 24.3859 1.03299C11.9329 4.16799 2.00488 15.446 0.742881 28.3C-0.825119 40.44 5.31488 53.066 15.8079 59.292C26.0839 65.736 40.0609 65.475 50.1079 58.692C59.1649 52.814 64.7819 42.092 64.4779 31.304L64.4879 31.295ZM34.2699 59.25C19.7269 60.687 5.66288 48.365 5.26988 33.778C4.16988 21.935 11.9749 10.222 23.1219 6.30299C38.7539 0.0329871 57.9559 11.615 59.5669 28.38C62.0929 43.444 49.5529 58.78 34.2699 59.25ZM24.6999 30.38L45.7299 13.18L34.3659 30.423C31.1439 30.423 27.9219 30.424 24.6999 30.38ZM30.6129 33.56L40.2789 33.604L19.2489 50.847L30.6129 33.56Z" fill="currentColor"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_316_308">
-                                        <rect width="64" height="64" fill="white" transform="translate(0.5)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
+                                <Image 
+                                src="/images/icon-react.svg"
+                                fill
+                                alt='React Native icon'
+                                />
                             </div>
-                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>Socket.io</p>
+                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>React Native</p>
                         </div>
 
                         <div ref={skills9Ref} className='flex justify-center items-center flex-col'>
@@ -231,23 +226,23 @@ const Skills = () => {
                         <div ref={skills10Ref} className='flex justify-center items-center flex-col'>
                             <div className='relative w-16 h-16'>
                                 <Image 
-                                src="/images/icon-sass.svg"
+                                src="/light-prisma-svgrepo-com.svg"
                                 fill
-                                alt='SASS icon'
+                                alt='prisma icon'
                                 />
                             </div>
-                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>Sass/scss</p>
+                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>Prisma</p>
                         </div>
 
                         <div ref={skills11Ref} className='flex justify-center items-center flex-col'>
                             <div className='relative w-16 h-16'>
                                 <Image 
-                                src="/images/icon-mongodb.svg"
+                                src="/rest-api-svgrepo-com.svg"
                                 fill
-                                alt='mongoDB icon'
+                                alt='Rest api icon'
                                 />
                             </div>
-                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>MongoDB</p>
+                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>REST api</p>
                         </div>
 
                         <div ref={skills12Ref} className='flex justify-center items-center flex-col'>
@@ -274,34 +269,24 @@ const Skills = () => {
 
                         <div ref={skills14Ref} className='flex justify-center items-center flex-col'>
                             <div className='relative w-16 h-16'>
-                                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clipPath="url(#clip0_316_340)">
-                                    <path d="M1.48928 40.4784C0.734741 37.7306 0.350586 34.8764 0.350586 32.0018C0.350586 18.879 8.59227 6.88003 20.8605 2.14832L22.469 6.31128C11.9088 10.3852 4.81612 20.7086 4.81612 32.0018C4.81612 34.479 5.14536 36.9322 5.79359 39.2963L1.48928 40.4784Z" fill="#58D09E"/>
-                                    <path d="M20.6461 2.2505C23.3 1.21286 26.0984 0.532471 28.9573 0.231986C42.0082 -1.13972 54.8029 5.80258 60.7911 17.509L56.8191 19.5438C51.6637 9.46734 40.6554 3.4926 29.4241 4.67306C26.9604 4.93199 24.5551 5.51586 22.2717 6.40766L20.6461 2.2505Z" fill="#58D09E"/>
-                                    <path d="M46.9978 55.2685C55.7122 49.7137 60.566 39.8557 59.6642 29.5475C59.3446 25.895 58.3309 22.4066 56.6562 19.1861L60.6132 17.1219C62.5607 20.866 63.7404 24.9148 64.1117 29.1584C65.1594 41.1339 59.5229 52.5821 49.3979 59.0351L46.9978 55.2685Z" fill="currentColor"/>
-                                    <path d="M22.8532 25.3992C25.4425 25.3992 27.5518 26.78 28.6357 29.1887L28.7214 29.3772L33.0702 27.9004L32.9777 27.6778C31.2937 23.5764 27.4146 21.0272 22.8532 21.0272C19.6462 21.0272 17.0397 22.0552 14.8858 24.1658C12.7456 26.2627 11.6619 28.901 11.6619 32.0086C11.6619 35.0888 12.7456 37.7134 14.8858 39.8103C17.0397 41.921 19.6462 42.9488 22.8532 42.9488C27.4146 42.9488 31.2937 40.3996 32.9777 36.3018L33.0702 36.0791L28.7145 34.5988L28.6322 34.7942C27.6616 37.1618 25.5009 38.5768 22.8532 38.5768C21.049 38.5768 19.5262 37.9464 18.3189 36.706C17.098 35.4486 16.4806 33.8691 16.4806 32.012C16.4806 30.1412 17.0842 28.5926 18.3189 27.2768C19.5228 26.0298 21.049 25.3992 22.8532 25.3992Z" fill="currentColor"/>
-                                    <path d="M50.0921 21.4316L43.8946 37.1138L37.656 21.4316H32.5525L41.3017 42.8358L35.0768 57.932L39.5389 58.8195L54.9144 21.4316H50.0921Z" fill="currentColor"/>
-                                    <path d="M35.8751 55.9858L34.7879 58.6173C34.5718 59.1381 34.0779 59.4909 33.5223 59.5149C33.1554 59.5286 32.785 59.5389 32.4111 59.5389C19.6147 59.5321 8.29316 50.5106 5.48763 38.08L1.13184 39.0633C2.70609 46.0358 6.65717 52.3642 12.2579 56.887C17.9239 61.461 25.0611 63.9862 32.3631 64C32.3734 64 32.4282 64 32.4282 64C32.857 64 33.2822 63.9897 33.7075 63.9726C35.9986 63.8766 38.0462 62.441 38.9207 60.3133L40.3406 56.8733L35.8751 55.9858Z" fill="currentColor"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_316_340">
-                                    <rect width="64" height="64" fill="white" transform="translate(0.350586)"/>
-                                    </clipPath>
-                                    </defs>
-                                </svg>
+                                <Image 
+                                src="/html-5-svgrepo-com.svg"
+                                fill
+                                alt='html icon'
+                                />
                             </div>
-                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>Cypress</p>
+                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>HTML</p>
                         </div>
 
                         <div ref={skills15Ref} className='flex justify-center items-center flex-col'>
                             <div className='relative w-16 h-16'>
                                 <Image 
-                                src="/images/icon-storybook.svg"
+                                src="/css-3-svgrepo-com.svg"
                                 fill
-                                alt='storybook icon'
+                                alt='css icon'
                                 />
                             </div>
-                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>Storybook</p>
+                            <p className='text-color-6 text-base font-normal font-inter leading-normal'>CSS</p>
                         </div>
 
                         <div ref={skills16Ref} className='flex justify-center items-center flex-col'>

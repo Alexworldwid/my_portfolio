@@ -107,7 +107,7 @@ const Hero = () => {
 
   const text = "Hi, I’m OBA 👋";
   const subHeadingText =
-    "I’m a full stack developer (react.js & node.js) I love building things that live on the internet. My goal is to create a seamless experience for users while solving complex problems.";
+  "I’m a full-stack JavaScript developer who builds web and mobile applications with TypeScript, React, React Native, Node.js, and PostgreSQL.";
 
   return (
     <section 
@@ -147,7 +147,7 @@ const Hero = () => {
                 <div className="h-1.5 w-1.5 rounded-full bg-green-500"></div>
               </div>
               <p className="text-base font-medium text-color-7 font-inter">
-                Available for freelance
+                Open to software development opportunities
               </p>
             </div>
           </div>
@@ -180,8 +180,8 @@ const Hero = () => {
           <div ref={heroImageRef} className="relative h-80 w-[100%]  max-w-72 md:h-96 md:w-80 opacity-0 will-change-transform">
             <div className="absolute left-0 top-[20px] md:top-[28px] z-10 h-72 w-[100%] max-w-72 md:h-80 md:w-72 border-8 border-default bg-color-3"></div>
             <Image 
-                src="/adewale.jpg"
-                alt="hero image"
+                src="/profile.jpeg"
+                alt="Portrait of Oba, full-stack JavaScript developer"
                 width={80} // Percentage width (100%)
                 height={100} // Aspect ratio (adjust as needed)
                 priority
